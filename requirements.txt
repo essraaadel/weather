@@ -5,3 +5,5 @@ scikit-learn
 seaborn
 streamlit
 tensorflow
+joblib
+pickle
