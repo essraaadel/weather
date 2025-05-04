@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model and label encoders
-model = joblib.load("random_forest_model.pkl")
+model = joblib.load("random_forest_model.joblib")
 rain_today_encoder = joblib.load("RainToday_LabelEncoder.joblib")
 location_encoder = joblib.load("Location_LabelEncoder.joblib")
 wind_dir_encoder = joblib.load("WindDir3pm_LabelEncoder.joblib")
